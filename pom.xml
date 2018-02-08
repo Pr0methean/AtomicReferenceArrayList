@@ -19,6 +19,19 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.13.1</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.testngdatabind</groupId>
+            <artifactId>testng-databinding</artifactId>
+            <version>2.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
